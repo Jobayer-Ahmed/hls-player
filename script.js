@@ -1,4 +1,4 @@
-document.getElementById('play').addEventListener("click", playVideo); 
+document.getElementById('play').addEventListener("click", playVideo);
 function playVideo() {
     const video = document.getElementById('video');
     let videoSource = document.getElementById('link').value
