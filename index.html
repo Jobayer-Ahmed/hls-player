@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://jobayer-ahmed.github.io/cosco/css/cosco.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div class="main">
+            <div class="input">
+                <input type="text" placeholder="m3u8 video stream link" id="link" onclick="this.setSelectionRange(0, this.value.length)">
+                <input type="submit" value="Play Video" id="play" class="btn fill_success">
+            </div>
+            <div class="video">
+                <video id="video" controls autoplay class="videoCentered" poster="poster.png"></video>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script src="script.js"></script>
+</body>
+</html>
